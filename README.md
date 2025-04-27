@@ -2,8 +2,7 @@
 I have solved the Cahn-Hillard PF model presented in the paper as follows:
 ![image](https://github.com/user-attachments/assets/ffb8fa99-9836-405b-bcc4-1180e9ed004c)
 
-I have implemented the computational model for different free energy expressions from the paper in the Opensource gihub page PRISMS-PF v2.4.0 (https://prisms-center.github.io/phaseField)
-The model implementation and the updated code can be found in application/phaseTreeAssg folder.
+I have implemented the computational model for various free energy expressions from the paper in the open-source GitHub repository PRISMS-PF v2.4.0 (https://prisms-center.github.io/phaseField). The model implementation and the updated code are located in the ´application/phaseTreeAssg´ folder.
 
 ### Installation:
 Please refer to the [installation section of the user manual](https://prisms-center.github.io/phaseField/doxygen_files/install.html) for details.
