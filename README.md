@@ -10,9 +10,9 @@ Please refer to the [installation section of the user manual](https://prisms-cen
 1) Install CMake, p4est, and deal.II (version 9.5 recommended)<br>
 2) Clone the PRISMS-PF GitHub repository <br>
 ```
-$ git clone https://github.com/prisms-center/phaseField.git
+$ git clone https://github.com/prisms-center/phaseField.git (*or from this repository)
 $ cd phaseField
-$ git checkout master
+$ git checkout v2.4.0
 $ cmake .
 $ make -j <nprocs>
 ```
