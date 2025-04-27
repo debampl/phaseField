@@ -18,7 +18,19 @@ $ make -j <nprocs>
 ```
 [here <nprocs> denotes the number of processors]
 
-## Further information, questions, issues and bugs:
+### Applicaion instruction for the assignment
+The code structure and run the application for the assignment:
+cd application/phaseTreeAssg
+1.	main C++ code to run is equations.cc
+2.	ICs_and_BCs.cc is used to define the initial spinodal decomposition of the phase to start with
+3.	Postprocess.cc is used to postprocess the output for visualization of any variable
+4.	Finally, the “customPDE.h” is the definition file of all the variables used or initiate in any of the code above.
+5.	parameters.prm  is used to define the parameter of the model such as M, K, c -range, domain size, iteration time, steps and the material parameters. 
+To execute the code, do the following
+1.	$ cmake .
+2.	$ make -j <num of available processor>
+3.	$ mpirun -n <num of available processor> main
+This is start running and provide the results file in solutions-iteraions-number.vtu. This is visualized in paraview.
 
- + prisms-pf-users@googlegroups.com (user forum)
- + prisms-pf@umich.edu  (developer email list)
+Initially, the implementation was not converging with material parameters of the paper stiffness matrix components. Therefore, the execute the same model equation of the paper I have used an isotropic elastic material with material parameters given in parameters.prm
+However, the model equation is same as the reference paper.
