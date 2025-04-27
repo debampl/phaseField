@@ -30,7 +30,7 @@ To execute the code, do the following
 1.	$ cmake .
 2.	$ make -j <num of available processor>
 3.	$ mpirun -n <num of available processor> main
-This is start running and provide the results file in solutions-iteraions-number.vtu. This is visualized in paraview.
+This is start running and provide the results file in solutions-iteraions-number.vtu. The result is visualized in paraview.
 
 Initially, the implementation was not converging with material parameters of the paper stiffness matrix components. Therefore, the execute the same model equation of the paper I have used an isotropic elastic material with material parameters given in parameters.prm
 However, the model equation is same as the reference paper.
