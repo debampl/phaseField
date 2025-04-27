@@ -25,8 +25,8 @@ cd application/phaseTreeAssg
 1. main C++ code to run is equations.cc
 2. ICs_and_BCs.cc is used to define the initial spinodal decomposition of the phase to start with
 3. Postprocess.cc is used to postprocess the output for visualization of any variable
-4. Finally, the “customPDE.h” is the definition file of all the variables used or initiate in any of the code above.
-5. parameters.prm  is used to define the parameter of the model such as M, K, c -range, domain size, iteration time, steps and the material parameters. 
+4. Finally, the “customPDE.h” is the definition file of all the variables used or initiated in any of the code above.
+5. parameters.prm  is used to define the parameters of the model, such as M, K, c -range, domain size, iteration time, steps and the material parameters. 
 ```
 To execute the code, do the following
 ```
@@ -34,16 +34,16 @@ $ cmake .
 $ make -j <num of available processor>
 $ mpirun -n <num of available processor> main
 ```
-This is start running and provide the results file in solutions-iteraions-number.vtu. The result is visualized in paraview.
+This is the start of running and provide the results file in solutions-iteraions-number.vtu. The result is visualized in Paraview.
 
-Initially, the implementation was not converging with material parameters of the paper stiffness matrix components. Therefore, the execute the same model equation of the paper I have used an isotropic elastic material with material parameters given in parameters.prm
-However, the model equation is same as the reference paper.
+Initially, the implementation was not converging with the material parameters of the paper stiffness matrix components. Therefore, I have used an isotropic elastic material with material parameters given in the parameters to execute the same model equation as in the paper.prm
+However, the model equation is the same as the reference paper.
 
 ### NOTE
 It is worth noting that while executing the cmake and make -j  <nprocs> in the main phase-field folder after git clone, It is very much necessary to install and update Install CMake, p4est, and deal.II (version 9.6.0 or above required).
-I had a lot of trouble to install deal.II and make work with ninja due to my computer does not have right amount of swap memory in WSL ubuntu. I spent almost 2-3 days to make things clear then work on the PRISMS-PF modules.
+I had a lot of trouble installing the deal.II and make work with Ninja due to my computer does not have the right amount of swap memory in WSL Ubuntu. I spent almost 2-3 days making things clear, then worked on the PRISMS-PF modules.
 
-#### These are few tips to make things work while installing deal.II
+#### These are a few tips to make things work while installing the deal.II
 ```
 rm -rf build/
 mkdir build
