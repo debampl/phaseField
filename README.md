@@ -34,3 +34,20 @@ This is start running and provide the results file in solutions-iteraions-number
 
 Initially, the implementation was not converging with material parameters of the paper stiffness matrix components. Therefore, the execute the same model equation of the paper I have used an isotropic elastic material with material parameters given in parameters.prm
 However, the model equation is same as the reference paper.
+
+### DISCLAIMER
+It is worth noting that while executing the cmake and make -j  <nprocs> in the main phase-field folder after git clone, It is very much necessary to install and update Install CMake, p4est, and deal.II (version 9.6.0 or above required).
+I had a lot of trouble to install deal.II and make work with ninja due to my computer does not have right amount of swap memory in WSL ubuntu. I spent almost 2-3 days to make things clear then work on the PRISMS-PF modules.
+
+#### These are few tips to make things work while installing deal.II
+rm -rf build/
+mkdir build
+cd build
+cmake -DDEAL_II_DIR=/path/to/dealii ..
+make -j$(nproc)
+
+#### You can increase swap size temporarily (example for 8GB swap):
+sudo dd if=/dev/zero of=/swapfile bs=1M count=8192
+sudo mkswap /swapfile
+sudo swapon /swapfile
+
