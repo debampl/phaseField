@@ -1,0 +1,7 @@
+/home/debuon/phaseTree/phaseField/CMakeFiles/edit_cache.dir
+/home/debuon/phaseTree/phaseField/CMakeFiles/rebuild_cache.dir
+/home/debuon/phaseTree/phaseField/CMakeFiles/prisms_pf_debug.dir
+/home/debuon/phaseTree/phaseField/CMakeFiles/prisms_pf.dir
+/home/debuon/phaseTree/phaseField/CMakeFiles/run.dir
+/home/debuon/phaseTree/phaseField/CMakeFiles/release.dir
+/home/debuon/phaseTree/phaseField/CMakeFiles/debug.dir

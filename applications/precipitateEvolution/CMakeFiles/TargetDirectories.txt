@@ -1,0 +1,6 @@
+/home/debuon/phaseTree/phaseField/applications/precipitateEvolution/CMakeFiles/rebuild_cache.dir
+/home/debuon/phaseTree/phaseField/applications/precipitateEvolution/CMakeFiles/edit_cache.dir
+/home/debuon/phaseTree/phaseField/applications/precipitateEvolution/CMakeFiles/run.dir
+/home/debuon/phaseTree/phaseField/applications/precipitateEvolution/CMakeFiles/release.dir
+/home/debuon/phaseTree/phaseField/applications/precipitateEvolution/CMakeFiles/main.dir
+/home/debuon/phaseTree/phaseField/applications/precipitateEvolution/CMakeFiles/debug.dir

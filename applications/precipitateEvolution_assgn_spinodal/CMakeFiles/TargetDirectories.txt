@@ -1,0 +1,6 @@
+/home/debuon/phaseTree/phaseField/applications/precipitateEvolution_assgn_spinodal/CMakeFiles/rebuild_cache.dir
+/home/debuon/phaseTree/phaseField/applications/precipitateEvolution_assgn_spinodal/CMakeFiles/edit_cache.dir
+/home/debuon/phaseTree/phaseField/applications/precipitateEvolution_assgn_spinodal/CMakeFiles/run.dir
+/home/debuon/phaseTree/phaseField/applications/precipitateEvolution_assgn_spinodal/CMakeFiles/release.dir
+/home/debuon/phaseTree/phaseField/applications/precipitateEvolution_assgn_spinodal/CMakeFiles/main.dir
+/home/debuon/phaseTree/phaseField/applications/precipitateEvolution_assgn_spinodal/CMakeFiles/debug.dir

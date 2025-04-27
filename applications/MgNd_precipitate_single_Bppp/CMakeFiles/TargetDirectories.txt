@@ -1,0 +1,6 @@
+/home/debuon/phaseTree/phaseField/applications/MgNd_precipitate_single_Bppp/CMakeFiles/rebuild_cache.dir
+/home/debuon/phaseTree/phaseField/applications/MgNd_precipitate_single_Bppp/CMakeFiles/edit_cache.dir
+/home/debuon/phaseTree/phaseField/applications/MgNd_precipitate_single_Bppp/CMakeFiles/run.dir
+/home/debuon/phaseTree/phaseField/applications/MgNd_precipitate_single_Bppp/CMakeFiles/release.dir
+/home/debuon/phaseTree/phaseField/applications/MgNd_precipitate_single_Bppp/CMakeFiles/main.dir
+/home/debuon/phaseTree/phaseField/applications/MgNd_precipitate_single_Bppp/CMakeFiles/debug.dir

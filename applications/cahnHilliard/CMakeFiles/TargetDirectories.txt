@@ -1,0 +1,6 @@
+/home/debuon/phaseTree/phaseField/applications/cahnHilliard/CMakeFiles/rebuild_cache.dir
+/home/debuon/phaseTree/phaseField/applications/cahnHilliard/CMakeFiles/edit_cache.dir
+/home/debuon/phaseTree/phaseField/applications/cahnHilliard/CMakeFiles/run.dir
+/home/debuon/phaseTree/phaseField/applications/cahnHilliard/CMakeFiles/release.dir
+/home/debuon/phaseTree/phaseField/applications/cahnHilliard/CMakeFiles/main.dir
+/home/debuon/phaseTree/phaseField/applications/cahnHilliard/CMakeFiles/debug.dir

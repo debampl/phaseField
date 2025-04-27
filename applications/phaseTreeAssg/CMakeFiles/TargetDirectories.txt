@@ -1,0 +1,6 @@
+/home/debuon/phaseTree/phaseField/applications/phaseTreeAssg/CMakeFiles/rebuild_cache.dir
+/home/debuon/phaseTree/phaseField/applications/phaseTreeAssg/CMakeFiles/edit_cache.dir
+/home/debuon/phaseTree/phaseField/applications/phaseTreeAssg/CMakeFiles/run.dir
+/home/debuon/phaseTree/phaseField/applications/phaseTreeAssg/CMakeFiles/release.dir
+/home/debuon/phaseTree/phaseField/applications/phaseTreeAssg/CMakeFiles/main.dir
+/home/debuon/phaseTree/phaseField/applications/phaseTreeAssg/CMakeFiles/debug.dir

@@ -1,0 +1,6 @@
+/home/debuon/phaseTree/phaseField/applications/spinodalDecomposition_assgn/CMakeFiles/rebuild_cache.dir
+/home/debuon/phaseTree/phaseField/applications/spinodalDecomposition_assgn/CMakeFiles/edit_cache.dir
+/home/debuon/phaseTree/phaseField/applications/spinodalDecomposition_assgn/CMakeFiles/run.dir
+/home/debuon/phaseTree/phaseField/applications/spinodalDecomposition_assgn/CMakeFiles/release.dir
+/home/debuon/phaseTree/phaseField/applications/spinodalDecomposition_assgn/CMakeFiles/main.dir
+/home/debuon/phaseTree/phaseField/applications/spinodalDecomposition_assgn/CMakeFiles/debug.dir

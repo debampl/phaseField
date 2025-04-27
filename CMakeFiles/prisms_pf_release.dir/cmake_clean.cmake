@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/prisms_pf_release.dir/src/core/boundary_conditions/boundaryConditions.cc.o"
+  "CMakeFiles/prisms_pf_release.dir/src/core/boundary_conditions/markBoundaries.cc.o"
+  "CMakeFiles/prisms_pf_release.dir/src/core/boundary_conditions/vectorBCFunction.cc.o"
+  "CMakeFiles/prisms_pf_release.dir/src/core/buildFields.cc.o"
+  "CMakeFiles/prisms_pf_release.dir/src/core/checkpoint.cc.o"
+  "CMakeFiles/prisms_pf_release.dir/src/core/init.cc.o"
+  "CMakeFiles/prisms_pf_release.dir/src/core/initial_conditions/initialConditions.cc.o"
+  "CMakeFiles/prisms_pf_release.dir/src/core/inputFileReader.cc.o"
+  "CMakeFiles/prisms_pf_release.dir/src/core/invM.cc.o"
+  "CMakeFiles/prisms_pf_release.dir/src/core/matrixFreePDE.cc.o"
+  "CMakeFiles/prisms_pf_release.dir/src/core/outputResults.cc.o"
+  "CMakeFiles/prisms_pf_release.dir/src/core/postprocessing/computeIntegral.cc.o"
+  "CMakeFiles/prisms_pf_release.dir/src/core/postprocessing/postprocessor.cc.o"
+  "CMakeFiles/prisms_pf_release.dir/src/core/refinement/AdaptiveRefinement.cc.o"
+  "CMakeFiles/prisms_pf_release.dir/src/core/reinit.cc.o"
+  "CMakeFiles/prisms_pf_release.dir/src/core/solvers/SolverParameters.cc.o"
+  "CMakeFiles/prisms_pf_release.dir/src/core/solvers/computeLHS.cc.o"
+  "CMakeFiles/prisms_pf_release.dir/src/core/solvers/computeRHS.cc.o"
+  "CMakeFiles/prisms_pf_release.dir/src/core/solvers/setNonlinearEqInitialGuess.cc.o"
+  "CMakeFiles/prisms_pf_release.dir/src/core/solvers/solve.cc.o"
+  "CMakeFiles/prisms_pf_release.dir/src/core/solvers/solveIncrement.cc.o"
+  "CMakeFiles/prisms_pf_release.dir/src/core/userInputParameters.cc.o"
+  "CMakeFiles/prisms_pf_release.dir/src/core/variableAttributeLoader.cc.o"
+  "CMakeFiles/prisms_pf_release.dir/src/core/variableAttributes.cc.o"
+  "CMakeFiles/prisms_pf_release.dir/src/core/variableContainer.cc.o"
+  "CMakeFiles/prisms_pf_release.dir/src/field_input/field_input.cc.o"
+  "CMakeFiles/prisms_pf_release.dir/src/grains/FloodFiller.cc.o"
+  "CMakeFiles/prisms_pf_release.dir/src/grains/OrderParameterRemapper.cc.o"
+  "CMakeFiles/prisms_pf_release.dir/src/grains/SimplifiedGrainRepresentation.cc.o"
+  "CMakeFiles/prisms_pf_release.dir/src/grains/reassignGrains.cc.o"
+  "CMakeFiles/prisms_pf_release.dir/src/nucleation/nucleation.cc.o"
+  "CMakeFiles/prisms_pf_release.dir/src/nucleation/parallelNucleationList.cc.o"
+  "CMakeFiles/prisms_pf_release.dir/src/utilities/utilities.cc.o"
+  "libprisms-pf-release.a"
+  "libprisms-pf-release.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/prisms_pf_release.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
