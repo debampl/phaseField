@@ -23,11 +23,11 @@ The code structure and run the application for the assignment:
 ```
 cd application/phaseTreeAssg
 
-1.	main C++ code to run is equations.cc
-2.	ICs_and_BCs.cc is used to define the initial spinodal decomposition of the phase to start with
-3.	Postprocess.cc is used to postprocess the output for visualization of any variable
-4.	Finally, the “customPDE.h” is the definition file of all the variables used or initiate in any of the code above.
-5.	parameters.prm  is used to define the parameter of the model such as M, K, c -range, domain size, iteration time, steps and the material parameters. 
+1. main C++ code to run is equations.cc
+2. ICs_and_BCs.cc is used to define the initial spinodal decomposition of the phase to start with
+3. Postprocess.cc is used to postprocess the output for visualization of any variable
+4. Finally, the “customPDE.h” is the definition file of all the variables used or initiate in any of the code above.
+5. parameters.prm  is used to define the parameter of the model such as M, K, c -range, domain size, iteration time, steps and the material parameters. 
 ```
 To execute the code, do the following
 ```
